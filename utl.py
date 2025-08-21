@@ -4,7 +4,7 @@ from pathlib import Path
 
 class Utl:
     
-    langauges_file: Path = Path('languages.json')
+    langauges_file: Path = Path('config/languages.json')
     translation_file : Path = Path('episodes_titles.json')
     base_url: str = 'https://www.thetvdb.com'
     base_series_url: str = 'https://www.thetvdb.com/series/'
